@@ -1,0 +1,280 @@
+[17-Jun-2022 12:46:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:14 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:23 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[17-Jun-2022 12:46:54 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#12 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#13 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#2 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#4 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Application->make()
+#5 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet()
+#6 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver()
+#8 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log()
+#10 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException()
+#12 /home/nhvxstwq/public_html/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#13 {main}
+  thrown in /home/nhvxstwq/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879

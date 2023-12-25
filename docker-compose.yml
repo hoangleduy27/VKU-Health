@@ -1,0 +1,60 @@
+version: '3.5'
+
+services:
+  vku-health:
+    build:
+      context: '.'
+      args:
+        uid: ${UID}
+    container_name: vku-health
+    restart: unless-stopped
+    environment:
+      - APACHE_RUN_USER=#${UID}
+      - APACHE_RUN_GROUP=#${UID}
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 8000:80
+    networks:
+      - vku-health-network
+
+  db:
+    image: mysql:8.0.32
+    container_name: vku-health-db
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=doantotnghiep
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=123456
+    networks:
+      - vku-health-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: vku-health-phpmyadmin
+    restart: unless-stopped
+    links:
+      - db
+    ports:
+      - '8081:80'
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
+      - PMA_ARBITRARY=1
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_USER=admin
+    networks:
+      - vku-health-network
+
+networks:
+  vku-health-network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
